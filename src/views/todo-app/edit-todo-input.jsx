@@ -3,8 +3,6 @@ import { useState } from "react";
 const EditTodoInput = ({ editTodo, id, todoText, setCloseEdit }) => {
   const [todo, setTodo] = useState(todoText);
 
-
-
   return (
     <div
       style={{

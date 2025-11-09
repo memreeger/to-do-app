@@ -19,6 +19,7 @@ const categories = [
 
 const defaultCategory = categories[0];
 
+
 const TodoApp = () => {
   const [todos, setTodos] = useState([
     {
